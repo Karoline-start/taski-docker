@@ -120,6 +120,7 @@ jobs:
           context: ./gateway/
           push: true
           tags: karoline2start/taski_gateway:latest
+
   deploy:
     runs-on: ubuntu-latest
     needs: 
